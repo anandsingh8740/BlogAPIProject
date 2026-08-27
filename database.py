@@ -5,7 +5,7 @@ from sqlalchemy.orm import sessionmaker, declarative_base
 # DATABASE_URL = "postgresql://username:password@localhost/blogdb"
 
 # Connection url
-DATABASE_URL = "postgresql://postgresql@localhost/blogdb"
+DATABASE_URL = "postgresql://postgres:Admin%40123@localhost:5433/blogdb"
 
 # Engine 
 engine = create_engine(DATABASE_URL)
